@@ -17,3 +17,20 @@
 .min-300 {
   min-height:300px;
 }
+
+.h-400 {
+  height:400px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.cardNoShadow {
+  box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+}
+
+.card .card-body .card-text {
+  height:100px;
+}

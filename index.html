@@ -2,396 +2,424 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Adapt & Signe</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Adapt & Signe</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Start your project here-->
+  <!--Navbar-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color">
 
-    <!-- Start your project here-->
-    <!--Navbar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="index.html">Adapt & Signe</a>
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="index.html">Adapt & Signe</a>
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos pôles</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="lsf.html">LSF</a>
+            <a class="dropdown-item" href="technolab.html">Techno'lab</a>
+            <a class="dropdown-item" href="infolab.html">Info'lab</a>
+            <a class="dropdown-item" href="zerodechets.html">Zéro déchets</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="association.html">L'association</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nos-projets.html">Nos projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nous-soutenir.html">Nous soutenir</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
 
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home
-          <span class="sr-only">(current)</span>
+      </ul>
+      <!-- Links -->
+
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="professionnels.html">Professionnels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/adaptetsigne" class="nav-link waves-effect waves-light">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown disabled">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Collapsible content -->
+
+  </nav>
+  <!--/.Navbar-->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="img/carr1.jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Comptines signées à Lodève !</h3>
+          <p>Lors de la journée parents/enfants</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="img/carr2.jpg" alt="Second slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Initiation à la robotique !</h3>
+          <p>Au mescladis - Gignac !</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="img/carr3.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Alors, qu'est-ce qu'on va faire aujourd'hui ?</h3>
+          <p>Début de séance !</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <div class="container-fluid my-5 text-center">
+    <h2 class="deep-purple-text text-uppercase font-weight-bold text-monospace">Nos poles</h2>
+  </div>
+
+  <!-- Card deck -->
+  <div class="container-fluid mt-5 card-deck">
+
+    <!-- Card -->
+    <div class="card cardNoShadow mb-3">
+
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="img/lsf.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
         </a>
-                </li>
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos pôles</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="lsf.html">LSF</a>
-                        <a class="dropdown-item" href="technolab.html">Techno'lab</a>
-                        <a class="dropdown-item" href="infolab.html">Info'lab</a>
-                        <a class="dropdown-item" href="zerodechets.html">Zéro déchets</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="association.html">L'association</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nos-projets.html">Nos projets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nous-soutenir.html">Nous soutenir</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+      </div>
 
-            </ul>
-            <!-- Links -->
+      <!--Card content-->
+      <div class="card-body">
 
-            <ul class="navbar-nav ml-auto nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link" href="professionnels.html">Professionnels</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </li>
-                <li class="nav-item dropdown disabled">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-user"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
+        <!--Title-->
+        <h4 class="card-title light-blue-text text-center">Langue Des Signes</h4>
+        <!--Text-->
+        <p class="card-text light-blue-text text-center">Venez vous initier à la pratique
+          <br> de la Langue des Signes Françaises</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <div class="text-center">
+          <button type="button" class="btn btn-light-blue btn-md">En savoir plus</button>
         </div>
-        <!-- Collapsible content -->
+      </div>
 
-    </nav>
-    <!--/.Navbar-->
+    </div>
+    <!-- Card -->
 
-    <!--Carousel Wrapper-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-2" data-slide-to="1"></li>
-            <li data-target="#carousel-example-2" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="view">
-                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
-                    <div class="mask rgba-black-light"></div>
-                </div>
-                <div class="carousel-caption">
-                    <h3 class="h3-responsive">Light mask</h3>
-                    <p>First text</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
-                    <div class="mask rgba-black-strong"></div>
-                </div>
-                <div class="carousel-caption">
-                    <h3 class="h3-responsive">Strong mask</h3>
-                    <p>Secondary text</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
-                    <div class="mask rgba-black-slight"></div>
-                </div>
-                <div class="carousel-caption">
-                    <h3 class="h3-responsive">Slight mask</h3>
-                    <p>Third text</p>
-                </div>
-            </div>
-        </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+    <!-- Card -->
+    <div class="card mb-3 cardNoShadow">
+
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="img/technolab.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
         </a>
-        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title text-center red-text darken-1-text">Techno'Lab</h4>
+        <!--Text-->
+        <p class="card-text text-center red-text darken-1-text">"Ils ne savaient pas que c'était impossible,
+          <br> alors ils l'ont fait !" - Mark Twain</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <div class="text-center">
+          <button type="button" class="btn btn-red btn-darken-1 btn-md">En savoir plus</button>
+        </div>
+      </div>
+
+    </div>
+    <!-- Card -->
+
+    <!-- Card -->
+    <div class="card mb-3 cardNoShadow">
+
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="img/zerodechet.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
         </a>
-        <!--/.Controls-->
-    </div>
-    <!--/.Carousel Wrapper-->
+      </div>
 
-    <div class="container-fluid my-5 text-center">
-        <h2 class="deep-purple-text text-uppercase font-weight-bold text-monospace">Nos poles</h2>
-    </div>
+      <!--Card content-->
+      <div class="card-body">
 
-    <!-- Card deck -->
-    <div class="container-fluid mt-5 card-deck">
-
-        <!-- Card -->
-        <div class="card mb-3">
-
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="img/lsf.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-                <!--Title-->
-                <h4 class="card-title light-blue-text text-center">Langue Des Signes</h4>
-                <!--Text-->
-                <p class="card-text light-blue-text text-center">Formez vous à la langue des signes !
-                    <br> Pour tout âge et tout niveaux !</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <div class="text-center">
-                    <button type="button" class="btn btn-light-blue btn-md">En savoir plus</button>
-                </div>
-            </div>
-
+        <!--Title-->
+        <h4 class="card-title text-center green-text darken-1-text">Zéro déchets !</h4>
+        <!--Text-->
+        <p class="card-text text-center green-text darken-1-text">Un pôle regroupant des initiatives afin de sensibiliser les gens au recyclage, au développement durable et comprenant un Repair'Cafe !.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <div class="text-center">
+          <button type="button" class="btn btn-green btn-darken-1 btn-md">En savoir plus</button>
         </div>
-        <!-- Card -->
 
-        <!-- Card -->
-        <div class="card mb-3">
-
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="img/technolab.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-                <!--Title-->
-                <h4 class="card-title text-center red-text darken-1-text">Techno'Lab</h4>
-                <!--Text-->
-                <p class="card-text text-center red-text darken-1-text">Un espace convivial où la robotique, l'arduino,
-                    <br> l'impression 3D, l'innovation se croisent !</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <div class="text-center">
-                    <button type="button" class="btn btn-red btn-darken-1 btn-md">En savoir plus</button>
-                </div>
-            </div>
-
-        </div>
-        <!-- Card -->
-
-        <!-- Card -->
-        <div class="card mb-3">
-
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="img/zerodechet.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-                <!--Title-->
-                <h4 class="card-title text-center green-text darken-1-text">Zéro déchets !</h4>
-                <!--Text-->
-                <p class="card-text text-center green-text darken-1-text">Un pôle regroupant des initiatives afin de sensibiliser les gens au recyclage, au développement durable et comprenant un Repair'Cafe !.</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <div class="text-center">
-                    <button type="button" class="btn btn-green btn-darken-1 btn-md">En savoir plus</button>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- Card -->
-
-        <!-- Card -->
-        <div class="card mb-3">
-
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="img/infolab.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-                <!--Title-->
-                <h4 class="card-title text-center amber-text lighten-1-text">Info'Lab</h4>
-                <!--Text-->
-                <p class="card-text text-center amber-text lighten-1-text">Des formations informatiques pour tout age et tout niveaux
-                    <br> De la bureautique à la programmation de robots et de sites internets !</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <div class="text-center">
-                    <button type="button" class="btn btn-amber btn-lighten-1 btn-md">En savoir plus</button>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- Card -->
+      </div>
 
     </div>
-    <!-- Card deck -->
+    <!-- Card -->
 
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="heading-block">Savoir faire et accessibilité.<span class="text-muted">
-                        Notre philosophie.</span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <a href="association.html#notrePhilosophie">
-                    <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <img src="http://lorempixel.com/480/500/" alt="...">
-            </div>
+    <!-- Card -->
+    <div class="card mb-3 cardNoShadow">
+
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="img/infolab.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title text-center amber-text lighten-1-text">Info'Lab</h4>
+        <!--Text-->
+        <p class="card-text text-center amber-text lighten-1-text">Des formations informatiques pour tout age et tout niveaux
+          <br> De la bureautique à la programmation de robots et de sites internets !</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <div class="text-center">
+          <button type="button" class="btn btn-amber btn-lighten-1 btn-md">En savoir plus</button>
         </div>
-    </div>
 
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="http://lorempixel.com/480/500/" alt="...">
-            </div>
-            <div class="col-md-6">
-                <h2 class="heading-block">Professionnel.<span class="text-muted">
-                        Notre vision.</span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <a href="/pages/pro/home">
-                    <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
-                </a>
-            </div>
+      </div>
+
+    </div>
+    <!-- Card -->
+
+  </div>
+  <!-- Card deck -->
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-right">
+        <h2 class="heading-block">Savoir faire et accessibilité.<span class="text-muted">
+            Notre philosophie.</span>
+        </h2>
+        <p>
+          L'association et ses membres ont crées cette association pour rassembler deux choses principales. Le aprtage de savoir-faire, qui se traduit par ses pôles, ou chacun peut trouver sa place et même constuire la sienne, ainsi que la volonté
+          de rendre tout cela accessible au plus grand nombre. Que ce soit d'un point de vue handicap, ou financier, nous désirons pouvoir proposer tout nos ateliers au plus grand nombre.
+        </p>
+        <a href="association.html#notrePhilosophie">
+          <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
+        </a>
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <img src="img/worker.svg" class="rounded mx-auto d-block" style="height:150px;width:auto" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-right">
+        <img src="img/collaboration2.svg" class="rounded mx-auto d-block" style="height:150px;width:auto" alt="...">
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2 class="heading-block">Professionnel.<span class="text-muted">
+            Notre vision.</span>
+        </h2>
+        <p>
+          Comment pouvons nous travailler ensemble ? Et pourquoi ? Le site internet dédira bientôt une partie à vous, professionnels, collectivités, services publics... En attendant n'hésitez pas à nous contacter pour discuter ensemble de vos
+          envies, et de nos solutions !
+        </p>
+        <a href="/pages/pro/home">
+          <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-right">
+        <h2 class="heading-block">Nous soutenir.<span class="text-muted">
+            Même gratuitement.</span>
+        </h2>
+        <p>
+          Vous souhaitez aider notre association ? Tout d'abord merci !<br>
+          Rendez-vous sur la page dédiée à ce sujet en cliquant sur ce bouton !
+        </p>
+        <a href="/pages/soutenir">
+          <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
+        </a>
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <img src="img/teamwork.svg" class="rounded mx-auto d-block" style="height:150px;width:auto" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-right">
+        <img src="img/project-management.svg" class="rounded mx-auto d-block" style="height:150px;width:auto" alt="...">
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2 class="heading-block">Envie de participer ?
+          <span class="text-muted"></span>
+        </h2>
+        <p>
+          L'association vous plaît, vous désirez bénéficier de certaines de nos prestations, ou proposer la vôtre ? Pas de soucis, pour adhérer à l'association cliquez juste <a href="#">ici</a>.<br>
+          Si vous souhaitez avoir plus de détails sur ce qui est faisable ou non et avoir plus de précisions sur notre fonctionnement, rendez-vous sur la page <a href="#">L'association</a> ou contactez-nous !
+        </p>
+        <a href="/pages/projets">
+          <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small teal pt-4">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">A propos du site</h5>
+          <p>Envie de savoir les améliorations à venir ? <a href="apropos.html">Cliquez-ici !</a></p>
         </div>
-    </div>
+        <!-- Grid column -->
 
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="heading-block">Nous soutenir.<span class="text-muted">
-                        Même gratuitement.</span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <a href="/pages/soutenir">
-                    <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <img src="http://lorempixel.com/480/500/" alt="...">
-            </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Contact</h5>
+          <p>La communication, vos idées, vos envies, vos remarques sont <span class="underline">indispensables !</span> <a href="contact.html">N'hésitez pas et contactez nous !</a></p>
+
         </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
     </div>
+    <!-- Footer Text -->
 
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="http://lorempixel.com/480/500/" alt="...">
-            </div>
-            <div class="col-md-6">
-                <h2 class="heading-block">Envie de participer ?
-                    <span class="text-muted"></span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <a href="/pages/projets">
-                    <button type="button" class="btn btn-info btn-lg">En savoir plus</button>
-                </a>
-            </div>
-        </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Adapt & Signe V1
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
     </div>
+    <!-- Copyright -->
 
-
-
-    <div style="height: 100vh">
-        <div class="flex-center flex-column">
-
-            <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
-            <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
-
-            <p class="animated fadeIn text-muted">MDB Team</p>
-        </div>
-    </div>
-    <!-- /Start your project here-->
-
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.js"></script>
-    <script type="text/javascript">
-        // SideNav Button Initialization
-        $(".button-collapse").sideNav();
-        // SideNav Scrollbar Initialization
-        var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-        Ps.initialize(sideNavScrollbar);
-    </script>
+  </footer>
+  <!-- Footer -->
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
